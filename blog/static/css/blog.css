@@ -1,5 +1,9 @@
+    * {
+    	box-sizing: border-box;
+    }
+
     .page-header {
-        background-color: #ff9400;
+        background-color: purple;
         margin-top: 0;
         padding: 20px 20px 20px 40px;
     }
@@ -8,10 +12,7 @@
         color: #ffffff;
         font-size: 36pt;
         text-decoration: none;
-    }
 
-    .content {
-        margin-left: 40px;
     }
 
     h1, h2, h3, h4 {
@@ -46,3 +47,15 @@
     .post p:nth-child(1) {
     	float: right;
     }
+
+    .new-button {
+    	vertical-align: center;
+    }
+
+    .post {
+    	background-color: green;
+    	padding: 20px;
+    	margin: 20px;
+    }
+
+    
